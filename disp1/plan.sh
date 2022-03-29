@@ -4,7 +4,7 @@ pkg_version="0.1.0"
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=("Apache-2.0")
 do_build() {
-  return 0
+  while true; do sleep 1; done
 }
 
 do_install() {
